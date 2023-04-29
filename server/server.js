@@ -70,7 +70,7 @@ function updateDB(req, res, next){
 
 }
 
-
+// we need a events middleware to listen for any /db endpoints 
 app.use('/events', (res, req) => {
 
 })
